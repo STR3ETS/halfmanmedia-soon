@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Maven+Pro:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter Tight';
+}
+
+.ratio-1-1 {
+    aspect-ratio: 1/1;
+}
+
+.portfolio-content {
+    transform: translateY(80%);
+    opacity: 0%;
+    transition: 0.3s ease-in-out;
+}
+.portfolio-content.active {
+    transform: translateY(0%);
+    opacity: 100%;
+}
